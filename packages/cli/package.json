@@ -1,0 +1,23 @@
+{
+  "name": "@phoenixaihub/agent-diff-cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "agent-diff": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run --passWithNoTests",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@phoenixaihub/agent-diff-core": "*",
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "vitest": "^3.1.0",
+    "@types/node": "^22.0.0"
+  },
+  "license": "MIT"
+}
